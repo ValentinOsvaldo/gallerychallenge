@@ -50,6 +50,7 @@ img {
   align-items: center;
   display: flex;
   flex-flow: column nowrap;
+  margin: 1rem 0.5rem;
 }
 
 .profile__card .profile__pic {
@@ -98,6 +99,10 @@ img {
   grid-template-rows: repeat(3, auto);
   margin: 3rem auto;
   width: 80%;
+}
+
+.picture__container img {
+  height: 100%;
 }
 
 .picture__container:nth-child(2) {
